@@ -5,7 +5,7 @@ module InstanceMethods
 end
 end
 module ClassMethods
- 
+
  def reset_all
   all.clear
 end
