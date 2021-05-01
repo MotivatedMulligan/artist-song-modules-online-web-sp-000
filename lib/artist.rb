@@ -9,7 +9,7 @@ include Paramable
   @@artists = []
 
   def initialize
-    @@artists << self
+    self.class.all << self
     @songs = []
   end
 
